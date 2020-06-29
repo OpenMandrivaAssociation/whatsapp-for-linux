@@ -2,6 +2,7 @@ Name:           whatsapp-for-linux
 Version:        1.0.7
 Release:        1
 Summary:        An unofficial WhatsApp linux client written in C++ with the help of gtkmm-3.0 and webkit2.
+Group:          Networking/Instant messaging
 License:        GPLv3.0
 URL:            https://github.com/eneshecan/whatsapp-for-linux
 Source0:        https://github.com/eneshecan/whatsapp-for-linux/archive/v%{version}/%{name}-%{version}.tar.gz
@@ -9,7 +10,6 @@ Source0:        https://github.com/eneshecan/whatsapp-for-linux/archive/v%{versi
 BuildRequires: cmake
 BuildRequires: pkgconfig(webkit2gtk-4.0)
 BuildRequires: pkgconfig(gtkmm-3.0)
-
 
 %description
 Whatsapp-for-linux is an unofficial WhatsApp linux client written in C++ with the help of gtkmm-3.0 and webkit2.
