@@ -1,5 +1,5 @@
 Name:           whatsapp-for-linux
-Version:        1.0.10
+Version:        1.0.11
 Release:        1
 Summary:        An unofficial WhatsApp linux client written in C++ with the help of gtkmm-3.0 and webkit2.
 Group:          Networking/Instant messaging
