@@ -1,5 +1,5 @@
 Name:           whatsapp-for-linux
-Version:        1.4.7
+Version:        1.5.0
 Release:        1
 Summary:        An unofficial WhatsApp linux client written in C++ with the help of gtkmm-3.0 and webkit2.
 Group:          Networking/Instant messaging
@@ -9,7 +9,7 @@ Source0:        https://github.com/eneshecan/whatsapp-for-linux/archive/v%{versi
 
 BuildRequires: cmake
 BuildRequires: pkgconfig(ayatana-appindicator3-0.1)
-BuildRequires: pkgconfig(webkit2gtk-4.0)
+BuildRequires: pkgconfig(webkit2gtk-4.1)
 BuildRequires: pkgconfig(gtkmm-3.0)
 
 %description
