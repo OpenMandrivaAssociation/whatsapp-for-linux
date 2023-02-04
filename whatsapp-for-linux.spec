@@ -9,6 +9,7 @@ Source0:        https://github.com/eneshecan/whatsapp-for-linux/archive/v%{versi
 
 BuildRequires: cmake
 BuildRequires: pkgconfig(ayatana-appindicator3-0.1)
+BuildRequires: pkgconfig(libcanberra)
 BuildRequires: pkgconfig(webkit2gtk-4.1)
 BuildRequires: pkgconfig(gtkmm-3.0)
 
