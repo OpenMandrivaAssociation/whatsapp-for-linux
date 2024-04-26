@@ -8,6 +8,7 @@ URL:            https://github.com/eneshecan/whatsapp-for-linux
 Source0:        https://github.com/eneshecan/whatsapp-for-linux/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires: cmake
+BuildRequires: gettext
 BuildRequires: pkgconfig(ayatana-appindicator3-0.1)
 BuildRequires: pkgconfig(libcanberra)
 BuildRequires: pkgconfig(webkit2gtk-4.1)
