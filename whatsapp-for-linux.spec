@@ -31,9 +31,9 @@ Whatsapp-for-linux is an unofficial WhatsApp linux client written in C++ with th
 %install
 %make_install -C build
 
-%find_lang %{name}
+%find_lang wasistlos
 
-%files -f %{name}.lang
+%files -f wasistlos.lang
 %{_bindir}/whatsapp-for-linux
 %{_datadir}/applications/com.github.eneshecan.WhatsAppForLinux.desktop
 %{_iconsdir}/hicolor/*x*/apps/com.github.eneshecan.WhatsAppForLinux.png
